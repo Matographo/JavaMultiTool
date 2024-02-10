@@ -1,2 +1,4 @@
 - Calculator String to int
 - Zip file Reader without unzip
+- Text Color Maker
+- File Operations for reading and writing
