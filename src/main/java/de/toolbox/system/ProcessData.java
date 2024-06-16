@@ -1,4 +1,4 @@
-package de.multitool;
+package de.toolbox.system;
 
 public class ProcessData {
     

@@ -1,4 +1,4 @@
-package de.multitool;
+package de.toolbox.logger;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -21,7 +21,7 @@ public class SimpleLog extends Logger {
     HashMap<Level, Color>  msgBackgroundColor   = new HashMap<>();
     HashMap<Level, Color>  levelColor           = new HashMap<>();
     HashMap<Level, Color>  levelBackgroundColor = new HashMap<>();
-    HashMap<Level, String> levelText           = new HashMap<>();
+    HashMap<Level, String> levelText            = new HashMap<>();
 
 
 
@@ -76,49 +76,49 @@ public class SimpleLog extends Logger {
 
     private void autoSetLevelColor() {
         // Message Text Color
-        msgTextColor.put(Level.SEVERE, Color.RED);
+        msgTextColor.put(Level.SEVERE,  Color.RED);
         msgTextColor.put(Level.WARNING, Color.YELLOW);
-        msgTextColor.put(Level.INFO, Color.BLUE);
-        msgTextColor.put(Level.CONFIG, Color.GREEN);
-        msgTextColor.put(Level.FINE, Color.CYAN);
-        msgTextColor.put(Level.FINER, Color.PURPLE);
-        msgTextColor.put(Level.FINEST, Color.WHITE);
+        msgTextColor.put(Level.INFO,    Color.BLUE);
+        msgTextColor.put(Level.CONFIG,  Color.GREEN);
+        msgTextColor.put(Level.FINE,    Color.CYAN);
+        msgTextColor.put(Level.FINER,   Color.PURPLE);
+        msgTextColor.put(Level.FINEST,  Color.WHITE);
 
         // Message Background Color
-        msgBackgroundColor.put(Level.SEVERE, Color.DEFAULT);
+        msgBackgroundColor.put(Level.SEVERE,  Color.DEFAULT);
         msgBackgroundColor.put(Level.WARNING, Color.DEFAULT);
-        msgBackgroundColor.put(Level.INFO, Color.DEFAULT);
-        msgBackgroundColor.put(Level.CONFIG, Color.DEFAULT);
-        msgBackgroundColor.put(Level.FINE, Color.DEFAULT);
-        msgBackgroundColor.put(Level.FINER, Color.DEFAULT);
-        msgBackgroundColor.put(Level.FINEST, Color.DEFAULT);
+        msgBackgroundColor.put(Level.INFO,    Color.DEFAULT);
+        msgBackgroundColor.put(Level.CONFIG,  Color.DEFAULT);
+        msgBackgroundColor.put(Level.FINE,    Color.DEFAULT);
+        msgBackgroundColor.put(Level.FINER,   Color.DEFAULT);
+        msgBackgroundColor.put(Level.FINEST,  Color.DEFAULT);
 
         // Level Text Color
-        levelColor.put(Level.SEVERE, Color.RED);
+        levelColor.put(Level.SEVERE,  Color.RED);
         levelColor.put(Level.WARNING, Color.YELLOW);
-        levelColor.put(Level.INFO, Color.BLUE);
-        levelColor.put(Level.CONFIG, Color.GREEN);
-        levelColor.put(Level.FINE, Color.CYAN);
-        levelColor.put(Level.FINER, Color.PURPLE);
-        levelColor.put(Level.FINEST, Color.WHITE);
+        levelColor.put(Level.INFO,    Color.BLUE);
+        levelColor.put(Level.CONFIG,  Color.GREEN);
+        levelColor.put(Level.FINE,    Color.CYAN);
+        levelColor.put(Level.FINER,   Color.PURPLE);
+        levelColor.put(Level.FINEST,  Color.WHITE);
 
         // Level Background Color
-        levelBackgroundColor.put(Level.SEVERE, Color.DEFAULT);
+        levelBackgroundColor.put(Level.SEVERE,  Color.DEFAULT);
         levelBackgroundColor.put(Level.WARNING, Color.DEFAULT);
-        levelBackgroundColor.put(Level.INFO, Color.DEFAULT);
-        levelBackgroundColor.put(Level.CONFIG, Color.DEFAULT);
-        levelBackgroundColor.put(Level.FINE, Color.DEFAULT);
-        levelBackgroundColor.put(Level.FINER, Color.DEFAULT);
-        levelBackgroundColor.put(Level.FINEST, Color.DEFAULT);
+        levelBackgroundColor.put(Level.INFO,    Color.DEFAULT);
+        levelBackgroundColor.put(Level.CONFIG,  Color.DEFAULT);
+        levelBackgroundColor.put(Level.FINE,    Color.DEFAULT);
+        levelBackgroundColor.put(Level.FINER,   Color.DEFAULT);
+        levelBackgroundColor.put(Level.FINEST,  Color.DEFAULT);
 
         // Level Text
-        levelText.put(Level.SEVERE, "ERROR");
+        levelText.put(Level.SEVERE,  "ERROR");
         levelText.put(Level.WARNING, "WARNING");
-        levelText.put(Level.INFO, "INFO");
-        levelText.put(Level.CONFIG, "CONFIG");
-        levelText.put(Level.FINE, "DEBUG");
-        levelText.put(Level.FINER, "TRACE");
-        levelText.put(Level.FINEST, "DETAILED TRACE");
+        levelText.put(Level.INFO,    "INFO");
+        levelText.put(Level.CONFIG,  "CONFIG");
+        levelText.put(Level.FINE,    "DEBUG");
+        levelText.put(Level.FINER,   "TRACE");
+        levelText.put(Level.FINEST,  "DETAILED TRACE");
     }
 
 

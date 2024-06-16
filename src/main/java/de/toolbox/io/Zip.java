@@ -1,4 +1,4 @@
-package de.multitool;
+package de.toolbox.io;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,7 +8,9 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
-public class ZipManager {
+import de.toolbox.system.ProcessData;
+
+public class Zip {
 
 
     // TODO: Schreiben einer Methode mit der man daten aus Zip liest ohne sie zu entpacken

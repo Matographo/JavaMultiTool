@@ -1,4 +1,4 @@
-package de.multitool;
+package de.toolbox.system;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
