@@ -13,6 +13,5 @@ public class main {
         File file = new File("Test.txt", true);
 
         System.out.println(file.getContent());
-        file.add("Hans der Schwanz");
     }
 }
